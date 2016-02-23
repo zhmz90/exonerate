@@ -1,4 +1,4 @@
-exonerate
+B1;3409;0cexonerate
 =========
 
 A continuation of exonerate, a generic tool for sequence alignment by Guy St.
@@ -13,6 +13,7 @@ To check out/build the final (stable) version:
 $ git clone https://github.com/nathanweeks/exonerate.git
 $ cd exonerate
 $ git checkout v2.4.0
+$ autoreconf -i
 $ ./configure [YOUR_CONFIGURE_OPTIONS]
 $ make
 $ make check
